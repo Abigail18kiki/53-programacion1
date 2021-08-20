@@ -8,6 +8,34 @@
     <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
-    <button class="btn btn-primary">Aceptar</button>
+    <nav class="navbar navbar-drak bg-primary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Teorema Pitagoras</a>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-4">
+                <div class="mb-3">
+                    <label class="form-label">C.O.</label>
+                    <input id="inp_co" class="form-control form-control-sm" type="text" placeholder="Ingrese cateto opuesto">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">C.A.</label>
+                    <input id="inp_ca" class="form-control form-control-sm" type="text" placeholder="Ingrese cateto adyacente">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Hipotenusa</label>
+                    <input id="inp_calcular" class="form-control form-control-sm" type="text" placeholder="Calculador">
+                </div>
+                <button id="btn_calcular" class="btn btn-primary">Calcular</button>
+            </div>
+            <div class="col-8">
+
+            </div>
+        </div>
+        
+    </div>
+    <script src="index.js"> </script>
 </body>
 </html>
