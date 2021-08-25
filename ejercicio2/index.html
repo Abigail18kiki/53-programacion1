@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bhaskara</a>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-4">
+                <div class="mb-3">
+                    <label class="form-label">A</label>
+                    <input id="inp_a" class="form-control form-control-sm" type="number" placeholder="Ingrese coeficiente principal">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">B</label>
+                    <input id="inp_b" class="form-control form-control-sm" type="number" placeholder="Ingrese coeficiente secundario">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">C</label>
+                    <input id="inp_c" class="form-control form-control-sm" type="number" placeholder="Ingrese el termino independiente">
+                </div>
+                
+                <button id="btn_calcular" class="btn btn-primary">Calcular</button>
+            </div>
+            <div class="col-8">
+                <div class="mb-3">
+                    <label class="form-label">Resultado de raiz 1</label>
+                    <input id="calcular" class="form-control form-control-sm" type="number" placeholder="Resultado">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Resultado de raiz 2</label>
+                    <input id="calcular_1" class="form-control form-control-sm" type="number" placeholder="Resultado">
+                </div>
+                
+            </div>
+        </div>  
+    </div>
+    <script src="main.js"> </script>
+</body>
+</html>
